@@ -10,6 +10,7 @@ describe("Bubble", () => {
     );
 
     expect(wrapper).toMatchSnapshot();
+
   });
 });
 
