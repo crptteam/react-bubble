@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Bubble Should renders without problems 1`] = `
+<BubbleWrap>
+  <BackgroundWrap />
+  <ContentWrap>
+    <BubbleContent>
+      Inner message.
+    </BubbleContent>
+  </ContentWrap>
+</BubbleWrap>
+`;
