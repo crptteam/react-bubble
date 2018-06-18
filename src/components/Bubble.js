@@ -2,6 +2,8 @@ import React from 'react';
 
 import PropTypes from 'prop-types';
 
+import { withTheme } from "styled-components";
+
 const ComponentName = 'Bubble';
 
 import BubbleWrap from '../styled/BubbleWrap';
@@ -42,4 +44,4 @@ Bubble.defaultProps = {
 
 Bubble.displayName = ComponentName;
 
-export default Bubble;
+export default withTheme(Bubble);
